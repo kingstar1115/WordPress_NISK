@@ -1,0 +1,3179 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+
+html,
+body {
+  height: 100%;
+  min-height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 767px) {
+  /* Styles for small screens go here */
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding: 20px 20px;
+    max-width: 640px;
+  }
+  .slide-section {
+    /* padding: 20px 20px; */
+  }
+
+  .second-picture {
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    width: 100%;
+    height: 558px;
+  }
+
+  .our_edge_title {
+    padding-top: 40px;
+    padding-bottom: 20px;
+  }
+  .edge_image {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .questions_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+
+    /* text-align: right; */
+    letter-spacing: 0.1px;
+
+    /* Nisk-brand gold color */
+
+    color: #a99f4d;
+  }
+  .questions_content {
+    /* float: right; */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    /* width: 242px; */
+    line-height: 20px;
+    /* or 167% */
+
+    letter-spacing: 0.1px;
+
+    /* light-text-color */
+
+    color: #ffffff;
+  }
+  .talk_to_us_btn {
+    /* Nisk-brand gold color */
+
+    background: #a99f4d;
+    /* Nisk-brand gold color */
+    font-family: "Montserrat";
+    padding: 4px 6.5px;
+    line-height: 28px;
+    border: 1px solid #a99f4d;
+    border-radius: 5px;
+    color: #1f3d4c;
+  }
+
+  .join_team_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+
+    letter-spacing: 0.1px;
+
+    /* Light Blue Brand */
+
+    color: #98d9f7;
+  }
+  .join_team_content {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+    letter-spacing: 0.1px;
+
+    /* light-text-color */
+
+    color: #ffffff;
+  }
+  .join_team_btn {
+    /* Nisk-brand gold color */
+    font-family: "Montserrat";
+    /* Nisk-brand gold color */
+    background: #98d9f7;
+    border-radius: 5px;
+    color: #1f3d4c;
+    width: 160px;
+    height: 58px;
+    text-align: center;
+    border: 1px solid #98d9f7;
+  }
+
+  .quick-link {
+    margin-left: 0px;
+  }
+
+  .footer-text-group {
+    max-width: 100%;
+    padding-bottom: 40px;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+  .footer-button-group {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .footer_btn_position {
+    /* float: right;  */
+    margin-top: 18px;
+  }
+  .footer_icon {
+    margin: 0;
+  }
+
+  .company {
+    margin: auto;
+  }
+  .quick-link {
+    margin: auto;
+  }
+
+  .join_team_btn {
+    width: 100%;
+    height: 58px;
+  }
+
+  .business_content {
+    padding-top: 50px;
+  }
+
+  .landing_slide-text-area {
+    padding: 200px 0;
+    z-index: 5;
+  }
+
+  .common-landing-title {
+    font-size: 45px;
+    padding-top: 45px;
+    padding-bottom: 36px;
+    line-height: 40px;
+  }
+
+  .news_insights_title {
+    padding-bottom: 20px;
+  }
+
+  .nav-container {
+    padding: 20px;
+  }
+  /* ---hidden quick link--- */
+  .quick-link {
+    display: none;
+  }
+  .company {
+    display: none;
+  }
+
+  .section-second {
+    padding-bottom: 10px;
+  }
+  .second-slider-nav div {
+    /* float: left; */
+    border: 1px solid #1f3d4c;
+  }
+  .second-slider-nav div.active {
+    background-color: #1f3d4c;
+    opacity: 1;
+  }
+  .slide-text-area {
+    padding-top: 120px;
+  }
+
+  .coporate_content {
+    padding: 40px;
+  }
+
+  .track_section_title {
+  }
+
+  .track_content {
+    /* padding: 50px;
+     */
+    padding-top: 30px;
+    padding-bottom: 20px;
+    margin: auto;
+  }
+  .track_info {
+    padding-bottom: 30px;
+  }
+  .landing-slide-text {
+    padding: 0 20px;
+  }
+
+  .t-address-color {
+    color: #1f3d4c;
+  }
+
+  .talk_to_us {
+    position: absolute;
+    z-index: -5;
+    perspective: 2px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: auto;
+    /* background-size: cover; */
+    height: 100vh !important;
+    width: 100%;
+  }
+  .connect_address {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+  }
+  #contact_form {
+    /* padding: 20px; */
+  }
+
+  .wwa_description {
+    flex-direction: column;
+  }
+
+  .women-section {
+    flex-direction: column;
+    padding: 40px 20px 30px 20px;
+  }
+  .women-section p {
+      font-size: 25px !important;
+      padding-left: 0px !important;
+  }
+  .map-section {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .map-content {
+    margin: auto;
+    width: 100%;
+  }
+
+  .highlight-info {
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 74px;
+  }
+  .team-section {
+    flex-direction: column;
+    gap: 0px !important;
+    padding-top: 50px !important;
+  }
+
+  .details-content {
+    margin: auto;
+    margin-top: unset;
+  }
+  .details-section {
+    flex-direction: column;
+    padding: 20px 20px 40px 20px !important;
+    gap: 30px !important;
+  }
+  .details-content img {
+    width: 100%;
+  }
+  .team-content {
+    padding: 20px;
+  }
+  .nisk-graphic-content {
+    padding: 20px !important;
+    padding-top: 200px !important;
+  }
+  .women-section img {
+    width: 100% !important;
+    padding: 20px !important;
+  }
+
+  .pre-img {
+    height: 40% !important;
+    left: 200px !important;
+    top: 50px !important;
+  }
+  .next-img {
+    height: 40% !important;
+    right: 185px !important;
+    top: 50px !important;
+  }
+  .main-img {
+    height: 50% !important;
+    left: 106px !important;
+    z-index: 20 !important;
+  }
+  .slide-view {
+    width: 100% !important;
+  }
+
+  .business_info {
+    padding-bottom: 20px !important;
+  }
+
+  .edge_content {
+    flex-direction: column;
+  }
+
+  .my-gap-15 {
+    gap: 20px;
+  }
+  .my-gap-16 {
+    margin-right: 0px;
+  }
+  .our_edge_padding {
+    position: relative;
+    padding: 20px;
+  }
+  .map-section img {
+    width: cover;
+  }
+
+  .section-second {
+    min-height: 100vh;
+    padding: 20px;
+  }
+  .p-20 {
+    padding: 0 20px;
+  }
+  .gradient_effect_background5 {
+    min-height: 700px;
+  }
+  .remove_right_padding {
+    display: unset;
+    --bs-gutter-x: 0;
+  }
+
+  .business-content-border {
+    display: none;
+  }
+
+  .logo {
+    width: 65px;
+    height: 40px;
+  }
+
+  .main-map {
+    width: 90% !important;
+    height: auto !important;
+  }
+
+  .join_team_column {
+    display: none;
+  }
+  .other-map {
+    scale: 0.8 !important;
+  }
+
+  .question_column {
+    width: 175px !important;
+  }
+  .footer_icon_btn {
+    width: 16px !important;
+    height: 16px !important;
+    padding: 0px;
+  }
+  .footer_icon_btn svg {
+    margin-top: -14px !important;
+    margin-bottom: 0px !important;
+    scale: 0.5;
+  }
+  #Camada_1 {
+    margin-left: -5px !important;
+  }
+  #twitter {
+    margin-left: -1px !important;
+  }
+  #yutube {
+    margin-left: -5px !important;
+  }
+  #Capa_1 {
+    margin-left: 0px !important;
+  }
+  .footer_btn_position {
+    padding-bottom: 0px !important;
+  }
+  .track-text {
+    padding-top: 20px !important;
+  }
+  .p-b-min {
+    padding-bottom: 100px;
+  }
+  .what_we_do_slide_title {
+    font-size: 45px !important;
+  }
+  .wwd-container {
+    padding: 20px;
+    height: unset !important;
+  }
+  .wwd-container2 {
+    padding: 20px;
+  }
+  .gradient_effect_background5 {
+    /*height: 300vh !important;*/
+  }
+  .wwd-container4 {
+    padding: 20px !important;
+  }
+  .business_stat {
+    padding: 20px;
+  }
+
+  .n-i-padding {
+    padding: 32px !important;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+  .footer_icon_bottom_text {
+    padding: 0px;
+  }
+.map_text {
+  background-color: white;
+}
+.nisk-graphic-img {
+    margin-top: 0px !important;
+}
+
+.map-text-group {
+    background:transparent; 
+    height: unset !important; 
+    width: 100%; 
+    position: relative;
+}
+.map_row {
+    margin-top: 200px;
+}
+
+.new_title_wwwa {
+    text-align: center;
+    font-size: 45px !important;
+}
+  /* ----min--- */
+  .contact_form_title {
+    font-size: 45px !important;
+    padding: 50px 20px 30px 20px !important;
+  }
+  .business {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .slide_new {
+    /* background-attachment: fixed; */
+    background-position: center !important;
+    background-size: cover;
+
+    /* background-position: center; */
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* Styles for medium screens go here */
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding: 20px 20px;
+    max-width: 980px;
+  }
+  .second-picture {
+    margin: auto;
+    margin-top: 20px;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 578px;
+    width: 472px;
+  }
+
+  .our_edge {
+    /* width: 100; */
+    position: relative;
+  }
+  .our_edge_title {
+    padding-top: 80px;
+    padding-bottom: 42px;
+  }
+
+  .edge_image {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+  }
+
+  .questions_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+
+    /* text-align: right; */
+    letter-spacing: 0.1px;
+
+    /* Nisk-brand gold color */
+
+    color: #a99f4d;
+  }
+  .questions_content {
+    /* float: right; */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    /* width: 242px; */
+    line-height: 20px;
+    /* or 167% */
+    letter-spacing: 0.1px;
+
+    /* light-text-color */
+
+    color: #ffffff;
+  }
+  .talk_to_us_btn {
+    /* Nisk-brand gold color */
+
+    background: #a99f4d;
+    /* Nisk-brand gold color */
+
+    border: 1px solid #a99f4d;
+    border-radius: 5px;
+    width: 160px;
+    height: 58px;
+    /* float: right; */
+    color: #1f3d4c;
+    margin-bottom: 30px;
+  }
+
+  .join_team_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+
+    letter-spacing: 0.1px;
+
+    /* Light Blue Brand */
+
+    color: #98d9f7;
+  }
+  .join_team_content {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+    letter-spacing: 0.1px;
+
+    /* light-text-color */
+
+    color: #ffffff;
+  }
+  .join_team_btn {
+    /* Nisk-brand gold color */
+
+    /* Nisk-brand gold color */
+    background: #98d9f7;
+    border-radius: 5px;
+    color: #1f3d4c;
+    width: 160px;
+    height: 58px;
+    /* float: right; */
+    border: 1px solid #98d9f7;
+  }
+
+  .quick-link {
+    /* margin-left: 85px; */
+    margin: auto;
+  }
+  .company {
+    /* margin-left: 85px; */
+    margin: auto;
+  }
+  .footer-text-group {
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+    padding-bottom: 20px;
+  }
+  .footer-button-group {
+    text-align: center;
+    /* text-align: center; */
+    padding-bottom: 89px;
+  }
+
+  .footer_btn_position {
+    margin-top: 18px;
+  }
+
+  .footer_icon {
+    /* position:absolute;
+    bottom: 20px; */
+    margin: auto;
+    /* width: 60%; */
+  }
+
+  .foot-logo-image {
+    margin: auto;
+    padding: 20px 0px 20px 0px;
+  }
+
+  .talk_to_us_btn {
+    width: 160px;
+    height: 58px;
+  }
+
+  .join_team_btn {
+    width: 160px;
+    height: 58px;
+  }
+
+  .business_content {
+    padding-top: 80px;
+  }
+  .landing_slide-text-area {
+    padding: 250px 0;
+  }
+
+  .common-landing-title {
+    font-size: 60px;
+    padding-bottom: 60px;
+    line-height: 60px;
+  }
+
+  .news_insights_title {
+    padding-bottom: 30px;
+  }
+  .section-second {
+    padding-bottom: 20px;
+  }
+  .second-slider-nav div.active {
+    background-color: #1f3d4c;
+    /* transform: scale(1); */
+    opacity: 1;
+  }
+
+  .coporate_content {
+    padding: 60px;
+  }
+
+  .track_section_title {
+    padding: 0px;
+  }
+
+  .track_content {
+    padding: 60px;
+  }
+
+  .track_info {
+    padding-bottom: 40px;
+  }
+
+  .landing-slide-text {
+    padding: 0 40px;
+  }
+  .slide-text-area {
+    padding-top: 381px;
+  }
+
+  .down_slide_first {
+    padding: 92px 79px 86px 88px;
+  }
+
+  .talk_to_us_map {
+    margin-right: 20px;
+    width: 100%;
+    height: auto;
+  }
+
+  .t-address-color {
+    color: white;
+  }
+
+  .connect_address {
+    padding-top: 50px;
+    padding-left: 20px;
+  }
+
+  #contact_form {
+    padding: 40px;
+  }
+  .wwa_description {
+    flex-direction: column;
+  }
+  .women-section {
+    flex-direction: column;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    padding-left: 40px;
+  }
+  .map-section {
+    flex-direction: column;
+  }
+  .map-content {
+    margin: auto;
+  }
+  .highlight-info {
+    /* width: unset; */
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 74px;
+  }
+  .team-section {
+    flex-direction: column;
+  }
+
+  .details-content {
+    margin: auto;
+    margin-top: unset;
+  }
+  .details-section {
+    flex-direction: column;
+  }
+
+  .my-gap-15 {
+    gap: 40px;
+  }
+  .my-gap-16 {
+    margin-right: 0px;
+  }
+  .p-20 {
+    padding: 0 60px;
+  }
+
+  .business-content-border {
+    display: none;
+  }
+
+  .logo {
+    width: 143px;
+    height: 88px;
+  }
+
+  .nav-container {
+    padding: 100px 79px 0px 129px;
+  }
+  .wwd-container {
+    padding: 89px 0px 80px 89px;
+  }
+  .wwd-container2 {
+    padding: 89px 0px 80px 89px;
+  }
+  .map_row {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+  /* ----middle--- */
+}
+
+@media screen and (min-width: 1024px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    padding: 40px 40px;
+    max-width: 1380px;
+  }
+  .edge_image {
+    width: 359px;
+    height: 375px;
+    position: absolute;
+    right: 78px;
+    top: -46px;
+  }
+  .second-text-area {
+    padding-left: 92px;
+    padding-top: 153px;
+    padding-bottom: 80px;
+    padding-right: 81px;
+  }
+  .second-picture {
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    height: 578px;
+    width: 472px;
+  }
+
+  .edge_content {
+    padding-bottom: 113px;
+  }
+
+  .first_margin {
+    margin-right: 85px;
+  }
+  .second_margin {
+    margin-right: 130px;
+  }
+  .our_edge {
+    /* width: 100; */
+    position: relative;
+  }
+  .our_edge_title {
+    padding-top: 217px;
+    padding-bottom: 82px;
+  }
+
+  .news_insights {
+    padding: 92px 73px 110px 64px;
+  }
+
+  .business_partner {
+    padding: 97px 131px;
+    background: #f0f0f0;
+  }
+  .questions_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+
+    /* text-align: right; */
+    letter-spacing: 0.1px;
+
+    /* Nisk-brand gold color */
+
+    color: #a99f4d;
+  }
+  .questions_content {
+    /* float: right; */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    /* width: 242px; */
+    line-height: 20px;
+    /* or 167% */
+    letter-spacing: 0.1px;
+
+    /* light-text-color */
+
+    color: #ffffff;
+  }
+  .talk_to_us_btn {
+    /* Nisk-brand gold color */
+
+    background: #a99f4d;
+    /* Nisk-brand gold color */
+
+    border: 1px solid #a99f4d;
+    border-radius: 5px;
+    width: 160px;
+    height: 58px;
+    float: right;
+    color: #1f3d4c;
+  }
+
+  .join_team_title {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 32px;
+    /* identical to box height, or 229% */
+
+    letter-spacing: 0.1px;
+
+    /* Light Blue Brand */
+
+    color: #98d9f7;
+  }
+  .join_team_content {
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    /* or 167% */
+
+    letter-spacing: 0.1px;
+
+    /* light-text-color */
+
+    color: #ffffff;
+  }
+  .join_team_btn {
+    /* Nisk-brand gold color */
+
+    /* Nisk-brand gold color */
+    background: #98d9f7;
+    border-radius: 5px;
+    color: #1f3d4c;
+    width: 160px;
+    height: 58px;
+    float: right;
+    border: 1px solid #98d9f7;
+  }
+
+  .footer {
+    padding: 75px 79px 79px 135px;
+  }
+
+  .logo-image {
+    padding-right: 137px;
+    padding-top: 100px;
+    /* background-image: url(../assets/images/Nisk-logo_white.png); */
+  }
+
+  .quick-link {
+    margin-left: 85px;
+  }
+
+  .footer-text-group {
+    display: flex !important;
+    padding-bottom: 121px;
+    flex-direction: row !important;
+  }
+
+  .footer-button-group {
+    text-align: right;
+  }
+
+  .footer_btn_position {
+    float: right;
+    margin-top: 18px;
+  }
+  .talk_to_us_btn {
+    width: 160px;
+    height: 58px;
+  }
+
+  .join_team_btn {
+    width: 160px;
+    height: 58px;
+  }
+
+  .business_content {
+    padding-top: 152px;
+    padding-bottom: 122px;
+  }
+  .landing_slide-text-area {
+    padding: 350px 0;
+  }
+
+  .common-landing-title {
+    font-size: 90px;
+    padding-bottom: 60px;
+    line-height: 80px;
+  }
+  .news_insights_title {
+    padding-bottom: 65px;
+  }
+
+  .section-second {
+    padding-bottom: 120px;
+  }
+  .second-slider-nav div.active {
+    background-color: #1f3d4c;
+    /* transform: scale(1); */
+    opacity: 1;
+  }
+
+  .slide-text-area {
+    padding-top: 381px;
+  }
+
+  .coporate_content {
+    padding: 89px;
+  }
+
+  .track_section_title {
+    padding: 60px 0px 0px 0px;
+  }
+
+  .track_content {
+    padding-top: 55px;
+    padding-bottom: 60px;
+  }
+
+  .track_info {
+    padding-bottom: 64px;
+  }
+
+  .landing-slide-text {
+    padding: 0 40px;
+  }
+
+  .down_slide_first {
+    padding: 92px 79px 86px 88px;
+  }
+
+  .talk_to_us_map {
+    margin-right: 20px;
+    width: 600px;
+    height: 560px;
+  }
+
+  .connect_address {
+    padding-top: 100px;
+    padding-left: 20px;
+  }
+
+  .t-address-color {
+    color: white;
+  }
+
+  .talk_to_us {
+    height: 200vh;
+    width: auto;
+    background-size: cover;
+  }
+  .women-section {
+    padding-left: 143px;
+    padding-top: 121px;
+    padding-bottom: 139px;
+  }
+
+  .highlight-info {
+    padding-top: 74px;
+    width: unset;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 74px;
+  }
+  .team-section {
+    flex-direction: row;
+  }
+  .details-content {
+    margin: auto;
+    margin-top: unset;
+  }
+  .details-section {
+    flex-direction: column;
+
+    
+  }
+.edge-content {
+      flex-direction: column !important;
+    }
+  .my-gap-15 {
+    gap: 60px;
+  }
+  .my-gap-16 {
+    margin-right: 0px;
+  }
+  .p-20 {
+    padding: 0 60px;
+  }
+
+  .padding-30 {
+    padding: 50px;
+  }
+  .map-section {
+    display: flex;
+    justify-content: center;
+    gap: 137px;
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+  .map-section .map-content {
+    max-width: 500px;
+  }
+
+  .business {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo {
+    width: 143px;
+    height: 88px;
+  }
+  .p-b-min {
+    padding-bottom: 30px;
+  }
+
+  .nav-container {
+    padding: 100px 79px 0px 129px;
+  }
+
+  .wwd-container {
+    padding: 89px 0px 80px 89px;
+  }
+
+  .wwd-container2 {
+    padding: 89px 0px 80px 89px;
+  }
+  .map_row {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+  /* ---Maximum--- */
+}
+
+@media screen and (min-width: 1200px) {
+  .second-picture {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    right: 127px;
+    top: -59px;
+    height: 578px;
+    width: 472px;
+    box-shadow: 93px -97px 0px -47px #98d9f7, 0px -65px 0px -15px #98d9f7,
+      73px -77px 0 -27px #98d9f7;
+    z-index: 5;
+  }
+
+  .connect_address {
+    padding-top: 200px;
+    padding-left: 96px;
+  }
+
+  .map_row {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+  }
+  .t-address-color {
+    color: white;
+  }
+
+  .talk_to_us_map {
+    margin-right: 20px;
+    width: 824px;
+    height: 710px;
+  }
+  .talk_to_us {
+    height: 200vh;
+    width: auto;
+    background-size: cover;
+  }
+
+  .women-section {
+    padding-left: 143px;
+    padding-top: 121px;
+    padding-bottom: 139px;
+  }
+  .highlight-info {
+    padding-top: 74px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .details-content {
+    margin-top: -290px;
+  }
+  .details-section {
+    flex-direction: row;
+  }
+  .our_edge_padding {
+    position: relative;
+    padding: 87px 217px 83px 113px;
+  }
+
+  .edge-content {
+    flex-direction: row;
+  }
+  .edge_image {
+    width: 359px;
+    height: 375px;
+    position: absolute;
+    right: 78px;
+    top: -46px;
+  }
+  .p-20 {
+    padding: 0 80px;
+  }
+
+  .padding-30 {
+    padding: 150px;
+  }
+
+  .wwd-container {
+    padding: 89px 0px 80px 89px;
+  }
+  .wwd-container2 {
+    padding: 89px 0px 80px 89px;
+  }
+  .foot-logo-image {
+    padding-top: 103px;
+  }
+  /* ---super-Maximum--- */
+}
+
+@media screen and (min-width: 1440px) {
+  .edge_content div {
+    min-width: 350px;
+  }
+
+  .my-gap-15 {
+    gap: 85px;
+  }
+  .my-gap-16 {
+    margin-right: 50px;
+  }
+
+  .team-section {
+    flex-direction: row;
+  }
+  .p-20 {
+    padding: 0 100px;
+  }
+
+  .padding-30 {
+    padding: 30px;
+  }
+  .nav-container {
+    padding: 100px 79px 0px 129px;
+  }
+
+  .wwd-container {
+    padding: 89px 0px 80px 89px;
+  }
+  .wwd-container2 {
+    padding: 89px 0px 80px 89px;
+  }
+.track_section_title{
+    padding: 114px 0px 0px 0px;
+}
+  /* ----min-width:1440px---- */
+}
+
+.map_img img {
+  width: 100%;
+}
+
+.edge-slide-update {
+  display: none;
+}
+.edge-slide-update:first-child {
+  display: block;
+}
+/* -------------Responsive--------------- */
+body {
+  font-family: "PlayfairDisplay", serif;
+  /* position: relative; */
+}
+.footer-text-group {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+}
+.nisk_navbar {
+  z-index: 99;
+  width: 100%;
+  position: absolute;
+  margin: auto;
+}
+.nav-item {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0px 14px 0px 14px;
+}
+.nav-active {
+  background-color: #a99f4d;
+}
+
+#navbarSupportedContent {
+  flex-basis: unset !important;
+  flex-grow: unset !important;
+}
+
+#navbarSupportedContent.show {
+  flex-basis: 100% !important;
+  flex-grow: 1 !important;
+}
+
+#navbarSupportedContent ul li:hover {
+  background-color: #a99f4d;
+}
+#navbarSupportedContent ul li a {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  /* identical to box height, or 193% */
+
+  text-align: justify;
+  text-transform: capitalize;
+}
+
+.landing-slide-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-transform: capitalize;
+}
+.our_edge {
+  background-color: #1f3d4c;
+  background-size: cover;
+  background-image: url(../images/bg_edge.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.slide {
+  height: 100vh;
+  width: 100%;
+  z-index: -1;
+  text-align: center;
+  /* width: 100%;
+  min-height: 920px; */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: auto;
+  /* background-image: url(../images/executive-smiling-with-laptop\ 1.png); */
+}
+
+/* ----sldier-nav------ */
+
+.slider-nav {
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  text-align: center;
+}
+.slider-nav div {
+  /* float: left; */
+  width: 8px;
+  height: 8px;
+  border: 1px solid #1f3d4c;
+  z-index: 2;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0.5;
+
+  transition-duration: 0.25s;
+  background-color: transparent;
+}
+.slider-nav div:hover {
+  opacity: 1;
+}
+
+.slider-nav div.active {
+  background-color: #1f3d4c;
+  /* transform: scale(1); */
+  opacity: 1;
+}
+.second-slider-nav {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  text-align: center;
+}
+.second-slider-nav div {
+  /* float: left; */
+  border: 1px solid #1f3d4c;
+  width: 8px;
+  height: 8px;
+  z-index: 2;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0.5;
+
+  transition-duration: 0.25s;
+  background-color: transparent;
+}
+.second-slider-nav div:hover {
+  opacity: 1;
+}
+
+/* ----edge sldier-nav------ */
+
+.slider-nav {
+  position: absolute;
+  bottom: 300px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  text-align: center;
+}
+.slider-nav div {
+  /* float: left; */
+  width: 8px;
+  height: 8px;
+  border: 1px solid #1f3d4c;
+  z-index: 5;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0.5;
+
+  transition-duration: 0.25s;
+  background-color: transparent;
+}
+.slider-nav div:hover {
+  opacity: 1;
+}
+
+.slider-nav div.active {
+  background-color: #1f3d4c;
+  /* transform: scale(1); */
+  opacity: 1;
+}
+
+.slide-title {
+  font-weight: 700;
+  line-height: 80px;
+  padding-bottom: 22px;
+  letter-spacing: -0.06em;
+  text-align: center;
+  color: #1f3d4c;
+}
+.slide-title-white {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  /* identical to box height, or 89% */
+
+  text-align: center;
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.t-l {
+  text-align: left;
+}
+.t-r {
+  text-align: right;
+}
+.t-c {
+  text-align: center;
+}
+.t-theme-color-main {
+  color: #1f3d4c;
+}
+.t-theme-color-white {
+  color: white;
+}
+
+.slide-section {
+  margin-top: 22px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  /* or 193% */
+}
+.section-second {
+  position: relative;
+}
+
+.text-title {
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #1f3d4c;
+}
+
+.text-description {
+  margin-top: 36px;
+  text-align: justify;
+  font-family: "Montserrat";
+}
+/* .second-picture { */
+/* margin-left: 30px; */
+/* } */
+.shadow_image {
+  position: absolute;
+  background-color: #98d9f7;
+  margin-left: 16px;
+  width: 503px;
+  height: 521px;
+  z-index: 4;
+}
+.learn_more_btn {
+  background-color: #a99f4d;
+  font-family: "Montserrat";
+  margin-top: 45px;
+  padding: 17px 35px;
+  color: white;
+  border: none;
+}
+.business_stat {
+  /* height: 472px; */
+  background-color: #a99f4d;
+  text-align: center;
+}
+.business_info {
+  font-size: 101px;
+  line-height: 93px;
+  letter-spacing: -6%;
+  color: white;
+}
+.business_info > span {
+  font-size: 50px;
+}
+.business_text {
+  font-family: "Montserrat";
+  font-size: 13px;
+  font-weight: 400;
+  color: white;
+}
+
+.edge-text-carousel-section {
+  padding-bottom: 46px;
+  z-index: 5;
+}
+.our_edge_title {
+  color: white;
+  font-weight: 400px;
+  font: "PlayfairDisplay";
+}
+.edge-content-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  /* or 150% */
+  text-align: justify;
+  text-transform: capitalize;
+  /* Nisk-brand gold color */
+  color: #a99f4d;
+}
+.edge_content {
+  display: none;
+}
+.edge_content:first-child {
+  display: block;
+}
+.edge-content-description {
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  padding-bottom: 0px;
+  /* or 193% */
+
+  text-align: justify;
+}
+
+/* ----News & Insights------- */
+
+.news_insights_title {
+  font-family: "PlayfairDisplay";
+  font-weight: 700;
+  color: #1f3d4c;
+}
+.card_part {
+  margin: auto;
+  margin-top: 15px;
+
+  position: relative;
+  border-radius: 10px;
+}
+
+.news_title {
+  max-height: 80px;
+  overflow: hidden;
+  display: block;
+  letter-spacing: -1px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  padding: 30px 20px;
+  text-transform: capitalize;
+  /* identical to box height, or 133% */
+  text-align: center;
+  text-transform: uppercase;
+  color: #252b42;
+  transition: transform 0.5s ease;
+}
+.card_content {
+  margin: auto;
+  text-align: center;
+}
+
+.card_image {
+  /* width: 100%; */
+  /* height: fit-content; */
+  transition: transform 0.5s ease;
+}
+
+.card-container {
+  /* border: 1px solid #000000; */
+  /* min-height: 310px; */
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-img-holder {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(2);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  transition: all 0.5s ease-in-out;
+}
+
+.card_part:hover .news_title {
+  transform: translateY(10px);
+}
+.card_part:hover .card-img-holder {
+  /* scale: 0.5; */
+  transform: scale(0.7);
+  padding: 0px;
+  width: 100%;
+}
+
+.card_part:hover {
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+.card_part:hover .card-img-holder {
+  /* height: 70%; */
+  transform: translate(0, 30%);
+}
+.card-description {
+  /* display: none; */
+  max-height: 50px;
+  overflow: hidden;
+  position: absolute;
+  font-family: "Montserrat";
+  /* top: -20px; */
+  padding: 0 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  /* or 143% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* second-text-color */
+
+  color: #737373;
+
+  /* tranform: translateY(100%); */
+  opacity: 0;
+  z-index: -1;
+  transition: all 0.3s ease-in-out;
+}
+.card_part:hover .card-description {
+  max-height: 100px;
+  overflow: hidden;
+  transform: translateY(5%);
+  opacity: 1;
+  display: block;
+}
+.partner_title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 61px;
+  /* identical to box height, or 339% */
+
+  text-transform: uppercase;
+
+  /* Nisk-brand gold color */
+
+  color: #a99f4d;
+}
+.footer {
+  /* Nisk-brand color */
+
+  background: #1f3d4c;
+}
+.logo-image img {
+  width: 143px;
+  height: 88px;
+}
+.company-title {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  /* or 200% */
+  color: #ffffff;
+}
+.company ul li a {
+  line-height: 28px;
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+}
+.quick-link ul li a {
+  line-height: 28px;
+  text-decoration: none;
+  color: white;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 14px;
+}
+/* .footer_icon button {
+} */
+.footer_icon_btn {
+  border-radius: 50%;
+  margin-right: 8px;
+
+  border: 1px solid #ffffff;
+  width: 36px;
+  height: 36px;
+  background-color: transparent;
+}
+.footer_icon_btn img {
+  padding: 9px;
+  margin-left: -11px;
+}
+.footer_icon_bottom_text {
+  margin-top: 8px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  /* identical to box height, or 200% */
+
+  color: #ffffff;
+}
+
+/* --------------------what we do page------------------- */
+
+.coporate_title {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  /* or 89% */
+
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+
+  color: #ffffff;
+}
+.coporate_text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  padding-bottom: 23px;
+  /* or 169% */
+
+  color: #ffffff;
+}
+
+.drop_btn button {
+  width: 73px;
+  height: 73px;
+  border-radius: 50%;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url(../images/icon/arrow-right.png);
+  border: 2px #a99f4d solid;
+  /* style="background-color:#A99F4D" */
+  transform: rotate(180deg);
+  transition: transform 0.6s ease-out;
+}
+/* .drop_btn button:hover {
+  transform: rotate(-180deg);
+} */
+.drop_btn span {
+  position: absolute;
+  padding-left: 20px;
+  line-height: 73px;
+  vertical-align: middle;
+  padding-right: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  /* identical to box height, or 169% */
+
+  text-transform: capitalize;
+
+  /* Nisk-brand gold color */
+
+  color: #a99f4d;
+}
+#down_slide_2 {
+  display: none;
+}
+#down_slide_3 {
+  display: none;
+}
+#down_slide_4 {
+  display: none;
+}
+/* 
+#down_slide_2.show {
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 1s ease-in-out;
+} */
+/* 
+#down_slide_2 {
+  opacity: 1;
+  height: 100%;
+  margin-top: 10px;
+} */
+.down_slide_first_content_component {
+  font-family: Montserrat;
+  line-height: 27px;
+  font-size: 16px;
+}
+
+.down_slide_first_content_component .title {
+  font-weight: 700;
+}
+.down_slide_first_content_component .content {
+  font-weight: 400;
+}
+.slide_panel {
+  position: relative;
+  width: auto;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.new_slide_panel {
+  position: relative;
+  width: auto;
+  min-height: 100vh;
+  overflow: hidden;
+}
+.landing-slide {
+  z-index: -1;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+}
+.slide_new {
+  /* background-attachment: fixed; */
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  /* background-position: center; */
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.landing-second-section {
+  display: none;
+}
+.landing-second-section:first-child {
+  display: block;
+}
+/* .slide_new:first-child {
+  opacity: 1;
+} */
+/* ----second section slide ----- */
+/* .second-section-slide { */
+/* position: absolute; */
+/* background-size: cover;
+  width: 100%; */
+/* background-position: center; */
+/* opacity: 0;
+  transition: opacity 1s ease-in-out;
+} */
+
+/* .second-section-slide:first-child {
+  opacity: 1;
+} */
+/* ----second section slide ----- */
+
+.track_section_title {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  /* or 89% */
+
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+
+  /* Nisk-brand color */
+
+  color: #1f3d4c;
+}
+
+.track_info {
+  font-size: 101px;
+  line-height: 93px;
+  letter-spacing: -6%;
+  color: #1f3d4c;
+}
+.track_info > span {
+  font-size: 50px;
+}
+.track_text {
+  font-family: Montserrat;
+  font-size: 13px;
+  font-weight: 400;
+  color: #1f3d4c;
+}
+
+/* -------talk to us------- */
+
+.talk_to_us {
+  position: absolute;
+  z-index: -5;
+  perspective: 2px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  margin: auto;
+  background-size: cover;
+  height: 150vh;
+  width: 100%;
+}
+
+#contact_location {
+  padding: 10px;
+  width: 50%;
+  background-image: url(../images/icon/icons8-location-48.png);
+}
+.office_location {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  /* or 169% */
+
+  text-transform: capitalize;
+}
+.contact_title {
+  padding-bottom: 20px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height, or 135% */
+
+  text-transform: capitalize;
+
+  /* Nisk-brand gold color */
+
+  color: #a99f4d;
+}
+.phone_number {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 27px;
+  /* or 169% */
+
+  text-transform: capitalize;
+}
+.email_address {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 169%;
+  text-transform: capitalize;
+}
+
+#contact_form {
+  min-height: 940px;
+  background-color: #98d9f7;
+}
+.contact_form_title {
+  padding: 103px 0px 89px 0px;
+  text-align: center;
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 67px;
+  line-height: 80px;
+  /* identical to box height, or 119% */
+
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+
+  color: #000000;
+}
+
+/* Style the select box */
+select {
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 8px 20px;
+  width: 100%;
+  height: 58px;
+  margin: 20px 0;
+}
+
+option {
+  color: #333;
+  background-color: #fff;
+}
+
+/* Set black background for odd options */
+option:nth-child(odd) {
+  background-color: #98d9f7;
+}
+input {
+  border: none;
+  margin: 20px 0;
+  padding: 8px 20px;
+  width: 100%;
+  border-radius: 10px;
+  height: 58px;
+  font-size: 14px;
+}
+
+textarea {
+  margin: 20px 0;
+  border-radius: 10px;
+  width: 100%;
+  padding: 8px 20px;
+  border: none;
+}
+
+.file-input-div {
+  width: 100%;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+.file-input-label {
+  color: #abb8c3;
+  font-size: 14px;
+  font-family: "Montserrat";
+  height: 58px;
+  width: 100%;
+  padding: 18px;
+}
+.custom-file-upload {
+  display: inline-block;
+  padding: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  background-color: #98d9f7;
+  /* float: right; */
+}
+
+.custom-file-upload:hover {
+  background-color: #90d0e0;
+}
+
+input[type="file"] {
+  display: none;
+}
+.submit-btn {
+  width: 100%;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  /* Nisk-brand gold color */
+
+  background: #a99f4d;
+  /* Nisk-brand gold color */
+
+  border: 1px solid #a99f4d;
+  border-radius: 5px;
+  /* identical to box height, or 200% */
+
+  text-align: center;
+  letter-spacing: 0.2px;
+
+  /* Nisk-brand color */
+
+  color: #1f3d4c;
+  padding: 15px 30px;
+}
+
+.news_insights_content a {
+  text-decoration: none;
+}
+/* ----------- our edge slide ------------ */
+/* .edge_slide {
+  position: absolute;
+  background-size: cover;
+  width: 100%;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.edge_content:nth-child(1-3) {
+  opacity: 1;
+} */
+
+.edge-slider-nav {
+  position: absolute;
+  bottom: 50px;
+  z-index: 20;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  text-align: center;
+}
+.edge-slider-nav div {
+  /* float: left; */
+  width: 8px;
+  height: 8px;
+  border: 1px solid white;
+  z-index: 2;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0.5;
+
+  transition-duration: 0.25s;
+  background-color: transparent;
+}
+.edge-slider-nav div:hover {
+  opacity: 1;
+}
+
+.edge-slider-nav div.active {
+  background-color: white;
+  /* transform: scale(1); */
+  opacity: 1;
+}
+
+/* ------------------------------What we are--------------------------- */
+
+p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../font/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: PlayfairDisplay;
+  src: url(../font/PlayfairDisplay-VariableFont_wght.ttf);
+}
+
+.gap-11 {
+  gap: 44px;
+}
+
+.gap-25 {
+  gap: 100px;
+}
+
+.mt-6 {
+  margin-top: 26px;
+}
+
+.main-section {
+  background-color: #f5f5f5;
+}
+
+.nisk-graphic-img {
+  margin-top: 135px;
+  vertical-align: unset !important;
+  width: 225px;
+  height: 215px;
+}
+
+.nisk-graphic-descriptoin {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: justify;
+  color: #1f3d4c;
+}
+
+.nisk-graphic-content {
+  padding-left: 138px;
+  padding-right: 80px;
+  padding-top: 270px;
+  padding-bottom: 153px;
+}
+
+.nisk-graphic-title {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+  color: #1f3d4c;
+}
+
+.truck-img {
+  width: 100%;
+}
+
+.truck-section {
+  position: relative;
+  height: 95vh;
+  height: auto;
+}
+
+.down-img {
+  position: absolute;
+  right: calc(50% - 33px);
+  top: -33px;
+  width: 65px;
+  height: 65px;
+}
+
+.women-section {
+  background-color: #a99f4d;
+  display: flex;
+  gap: 23px;
+  align-items: center;
+}
+
+.women-description {
+  font-family: "PlayfairDisplay";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 58px;
+  padding-left: 20px;
+  line-height: 65px;
+  text-transform: lowercase;
+  color: #ffffff;
+}
+
+.map-section {
+  display: flex;
+  justify-content: center;
+  gap: 137px;
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.map-content {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.map-description {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: justify;
+  color: #1f3d4c;
+}
+
+.map-show-items {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.map-show-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-show-item-img {
+  max-height: 44px;
+  object-fit: contain;
+}
+
+.map-show-item-value {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 80px;
+  text-transform: capitalize;
+  color: #1f3d4c;
+  display: flex;
+  align-items: start;
+}
+
+.map-show-item-symbol {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 50px;
+  text-transform: capitalize;
+  color: #1f3d4c;
+}
+
+.highlight-section {
+  width: 100%;
+  background-color: #98d9f7;
+  padding-top: 66px;
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 94px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.highlight-title {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  padding: 26px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+  color: #1f3d4c;
+}
+
+.highlight-item {
+  width: 94px;
+  height: 94px;
+  padding-left: 36px;
+  border-radius: 999px;
+  border: 4px #ffffff solid;
+  position: relative;
+  transition: transform 0.5s ease;
+}
+.highlight-item:hover {
+  transform: scale(2.4);
+  z-index: 50;
+}
+
+.highlight-item-title {
+  display: inline-block;
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  letter-spacing: -0.04em;
+  text-transform: capitalize;
+  color: #1f3d4c;
+  white-space: nowrap;
+}
+
+.highlight-item-value {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 10px;
+  text-transform: capitalize;
+  color: #1f3d4c;
+  white-space: nowrap;
+}
+
+.highlight-item-content {
+  background-color: #98d9f7;
+  position: absolute;
+  top: 16px;
+  padding-bottom: 10px;
+}
+
+/* .highlight-item-main {
+  scale: 2.4;
+} */
+
+.team-section {
+  padding-top: 143px;
+  padding-bottom: 156px;
+  display: flex;
+  gap: 63px;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide-view {
+  width: 750px;
+  height: 377px;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.action-buttons {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 30;
+}
+
+.action-button {
+  width: 72px;
+  height: 72px;
+}
+
+.imgs-view {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.main-img {
+  height: 100%;
+  position: absolute;
+  left: 222px;
+  z-index: 20;
+  animation-name: main-img-animation;
+  animation-duration: 1.5s;
+}
+
+.pre-img {
+  height: 70%;
+  position: absolute;
+  left: 44px;
+  top: 50px;
+  animation-name: pre-img-animation;
+  animation-duration: 1.5s;
+}
+
+.next-img {
+  height: 70%;
+  position: absolute;
+  right: 44px;
+  top: 50px;
+  z-index: -1;
+  animation-name: next-img-animation;
+  animation-duration: 1.5s;
+}
+
+@keyframes pre-img-animation {
+  0% {
+    left: 520px;
+    /* margin-left: -121px; */
+    top: 50px;
+  }
+  33% {
+    left: 550px;
+    /* margin-left: -121px; */
+    top: 50px;
+  }
+  66% {
+    left: 14px;
+    /* margin-left: -121px; */
+    top: 50px;
+  }
+  100% {
+    left: 44px;
+    /* margin-left: -121px; */
+    top: 50px;
+  }
+}
+
+@keyframes main-img-animation {
+  0% {
+    left: 44px;
+    top: 50px;
+    height: 70%;
+  }
+  33% {
+    left: 14px;
+    top: 50px;
+    height: 70%;
+  }
+  66% {
+    left: 200px;
+    top: 0px;
+    height: 103%;
+  }
+  100% {
+    left: 222px;
+    top: 0px;
+    height: 100%;
+  }
+}
+
+@keyframes next-img-animation {
+  0% {
+    left: 180px;
+    top: 0px;
+    height: 100%;
+  }
+  33% {
+    left: 160px;
+    top: 0px;
+    height: 103%;
+  }
+  66% {
+    left: 540px;
+    top: 50px;
+    height: 70%;
+  }
+  100% {
+    left: 520px;
+    top: 50px;
+    height: 70%;
+  }
+}
+
+.team-content {
+  max-width: 505px;
+}
+
+.team-view-title {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 80px;
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+  color: #1f3d4c;
+}
+
+.team-member-role {
+  margin-top: 31px;
+  font-family: "PlayfairDisplay";
+  font-style: italic;
+  font-weight: 600;
+  font-size: 58px;
+  line-height: 65px;
+  text-transform: capitalize;
+  color: #98d9f7;
+}
+
+.team-member-name {
+  margin-top: 52px;
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 43px;
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+  color: #1f3d4c;
+}
+
+.team-member-description {
+  display: block;
+  margin-top: 21px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 27px;
+  text-align: justify;
+  color: #1f3d4c;
+}
+
+.details-section {
+  position: relative;
+  padding-top: 189px;
+  padding-left: 130px;
+  padding-right: 123px;
+  padding-bottom: 128px;
+  background: #a99f4d;
+  display: flex;
+  justify-content: center;
+  gap: 94px;
+}
+
+.details-title {
+  font-family: "PlayfairDisplay";
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+  color: #1f3d4c;
+}
+
+.details-content {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  max-width: 550px;
+}
+
+.details-content-name {
+  margin-top: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: right;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.details-desciption {
+  margin-top: 12px;
+  text-align: right;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #ffffff;
+}
+
+/* -------------details slide */
+
+.details_content_slide {
+  display: none;
+  min-height: 164px;
+}
+.details_content_slide:first-child {
+  display: block;
+}
+.details-slider-nav {
+  z-index: 500;
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0px;
+  text-align: center;
+}
+.details-slider-nav div {
+  /* float: left; */
+  width: 8px;
+  height: 8px;
+  border: 1px solid #1f3d4c;
+  z-index: 2;
+  display: inline-block;
+  margin: 0 10px;
+  cursor: pointer;
+  border-radius: 50%;
+  opacity: 0.5;
+
+  transition-duration: 0.25s;
+  background-color: transparent;
+}
+.details-slider-nav div:hover {
+  opacity: 1;
+}
+
+.details-slider-nav div.active {
+  background-color: #1f3d4c;
+  /* transform: scale(1); */
+  opacity: 1;
+}
+
+/* number animation */
+.animation-pan {
+  position: relative;
+  margin: auto;
+  width: 198px;
+  height: 101px;
+  overflow: hidden;
+}
+.animation-pan ul li {
+  font-size: 101px;
+  line-height: 93px;
+  text-align: center;
+}
+.number-flow-bar {
+  transition: transform 0.3s ease-in-out;
+}
+.number-flow-bar:hover {
+  /* transform: translateY(-665px); */
+}
+.business_info_animation {
+  position: relative;
+  padding-bottom: 20px;
+}
+.plus-position {
+  font-size: 40px;
+  display: inline-block;
+  line-height: 40px;
+  color: white;
+}
+.align-text-bottom {
+  top: 50px;
+  position: absolute;
+  left: 50%;
+  font-size: 34px;
+  color: white;
+}
+
+.gradient_effect_background1 {
+  width: 100%;
+  position: absolute;
+  height: 100vh;
+  z-index: -1;
+  background-position: center center;
+  background-image: linear-gradient(to top, rgb(2, 55, 82), rgba(0, 0, 0, 0)),
+    url(../images/nisk_graphic.png), url(../images/page/what_we_do/4.jpeg);
+  background-position: bottom left, bottom left, center;
+  background-repeat: no-repeat, repeat-x, no-repeat;
+  background-size: auto 50%, auto 107px, cover;
+
+  /* width: 100%;
+  height: 100%;
+  background-size: cover;
+  background: #fff url(../images/page/what_we_do/4.jpeg) no-repeat fixed 0 0;
+  overflow: auto; */
+}
+.WWD_title {
+  position: relative;
+  height: 100vh;
+  margin: auto;
+  text-align: center;
+}
+
+.gradient_effect_background2 {
+  height: 100vh;
+  width: 100%;
+  z-index: -5;
+  position: absolute;
+  /* height: 100vh; */
+  /* background-size: cover; */
+  margin: auto;
+  background-image: linear-gradient(to right, rgb(2, 55, 82), rgba(0, 0, 0, 0)),
+    url(../images/nisk_graphic.png), url(../images/page/what_we_do/1.jpeg);
+  /* background-attachment: fixed; */
+  background-position: bottom left, bottom left, center;
+  background-repeat: no-repeat, repeat-x, no-repeat;
+  background-size: 70% auto, auto 107px, cover;
+}
+.gradient_effect_background3 {
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  /* background-size: cover; */
+  z-index: -5;
+  margin: auto;
+  background-image: linear-gradient(to right, rgb(2, 55, 82), rgba(0, 0, 0, 0)),
+    url(../images/nisk_graphic.png), url(../images/page/what_we_do/2.jpeg);
+  background-position: bottom left, bottom left, center;
+  background-repeat: no-repeat, repeat-x, no-repeat;
+  background-size: 70% auto, auto 107px, cover;
+}
+
+.gradient_effect_background4 {
+  height: 100vh;
+  /* background-size: cover; */
+  width: 100%;
+  position: absolute;
+  z-index: -5;
+  margin: auto;
+  background-image: linear-gradient(to right, rgb(2, 55, 82), rgba(0, 0, 0, 0)),
+    url(../images/nisk_graphic.png), url(../images/page/what_we_do/3.jpeg);
+  background-position: bottom left, bottom left, center;
+  background-repeat: no-repeat, repeat-x, no-repeat;
+  background-size: 70% auto, auto 107px, cover;
+}
+
+.gradient_effect_background5 {
+  /* min-height: 681px; */
+  /* background-size: cover; */
+  min-height: 100vh;
+  width: 100%;
+  z-index: -5;
+  margin: auto;
+  background-color: #98d9f7;
+  background-image: url(../images/nisk_graphic.png);
+  background-position: bottom left;
+  background-repeat: repeat-x;
+  background-size: auto 107px;
+}
+
+.team-info {
+  display: none;
+}
+.team-info:first-child {
+  display: block;
+}
+
+.team-info .read-more {
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+  display: none;
+  cursor: pointer;
+  background-color: #a99f4d;
+  color: white;
+  font-weight: 700;
+  border: none;
+}
+
+.team-info .read-more:hover {
+  color: #ccb812;
+}
+
+.foot_icon_active {
+  fill: #a99f4d !important;
+}
+
+.img-inactive {
+  display: none;
+}
+.selectedMap {
+  position: relative;
+  width: 200px;
+  height: 300px;
+  bottom: -200px;
+  margin: auto;
+  scale: 2;
+}
+.selectedMapContainer {
+  text-align: center;
+}
+.countryName {
+  position: absolute;
+  font-size: 14px;
+  top: 10%;
+  right: 38%;
+  padding-left: 40px;
+
+  color: white;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+}
+.contact_form_select option {
+  border: 1px #1f3d4c solid;
+  padding: 10px;
+}
+
+/* ---------------- */
+
+.sel__box__options {
+  display: list-item;
+  font-family: "Quicksand";
+  font-size: 1.5em;
+  color: blue;
+  padding: 2em 1em;
+  user-select: none;
+}
+.business-content-border {
+  height: 202px;
+  width: 5px;
+  border: 2px solid;
+  margin-top: 124px;
+  border-color: transparent transparent transparent white;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: row;
+}
+
+#Camada_1 {
+  margin-left: -7px;
+  margin-top: 4px;
+}
+
+.footer_icon > a:nth-child(2) > svg {
+  margin-left: -3px;
+  margin-bottom: -5px;
+}
+.footer_icon > a:nth-child(4) > svg {
+  margin-left: -2px;
+  margin-top: 2px;
+}
+/* ----------------------- */
+.select_wrap {
+  width: 100%;
+  margin: 15px auto;
+  position: relative;
+  user-select: none;
+}
+
+.select_wrap .default_option {
+  background: #fff;
+  border-radius: 10px;
+  position: relative;
+  cursor: pointer;
+  height: 58px;
+  padding-top: 5px;
+  color: #1f3d4c;
+}
+
+.select_wrap .default_option li {
+  padding: 10px 20px;
+  line-height: 28px;
+}
+
+.select_wrap .default_option:before {
+  content: "";
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 11px;
+  height: 11px;
+  border: 2px solid;
+  border-color: transparent transparent #1f3d4c #1f3d4c;
+  transform: rotate(-45deg);
+}
+
+.select_wrap .select_ul {
+  position: absolute;
+  top: 63px;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  display: none;
+  padding: 20px;
+  z-index: 5;
+}
+
+.select_wrap .select_ul li:nth-child(odd) {
+  background-color: #98d9f7;
+  border: 1px solid #98d9f7;
+}
+.select_wrap .select_ul li:nth-child(even) {
+  border: 1px solid #e6e6e6;
+}
+.select_wrap .select_ul li {
+  margin-top: 20px;
+  padding: 10px 20px;
+  line-height: 28px;
+  cursor: pointer;
+  padding: 13px 20px;
+  border-radius: 10px;
+}
+.select_wrap .select_ul li:first-child {
+  margin-top: 0px;
+}
+
+.select_wrap .select_ul li:hover {
+  background: #fff4dd;
+}
+
+.select_wrap .option {
+  display: flex;
+  align-items: center;
+}
+
+.select_wrap.active .select_ul {
+  display: block;
+  z-index: 5;
+}
+
+.select_wrap.active .default_option:before {
+  top: 25px;
+  transform: rotate(-225deg);
+}
+.capital-only-display {
+  display: none;
+}
+.track-text {
+  font-family: "Montserrat";
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.what_we_do_slide_title {
+  font-size: 90px;
+  line-height: 80px;
+  color: white;
+  text-transform: capitalize;
+}
+.highlight-background-color {
+  background-color: #98d9f7;
+}
+.hightligt-tagline {
+  font-family: Montserrat;
+  font-size: 25px;
+  padding-top: 25px;
+  text-align: center;
+}
+.footer_icon_btn:hover svg g path {
+  fill: #a99f4d !important;
+}
+
+.footer_icon_btn:hover svg path {
+  fill: #a99f4d !important;
+}
+.talk_to_us_btn {
+  font-family: "Montserrat" !important;
+}
+.join_team_btn {
+  font-family: "Montserrat";
+}
+.new_title_wwwa {
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 90px;
+  line-height: 80px;
+  /* identical to box height, or 89% */
+
+  letter-spacing: -0.06em;
+  text-transform: capitalize;
+
+  /* Nisk-brand color */
+
+  color: #1f3d4c;
+  padding-bottom: 40px;
+}
+
+/* .background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  will-change: transform;
+  backface-visibility: hidden;
+  height: 130vh;
+  position: fixed;
+  width: 100%;
+  transform: translateY(30vh);
+  transform: transition(1.2s, all, cubic-bezier(0.22, 0.44, 0, 1));
+}
+.background:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+} */
+.myContainer {
+  height: 100vh;
+  overflow: hidden;
+  overflow-y: auto;
+  perspective: 3px;
+}
+
+.truck-section-animation {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+.corporate-finance-section {
+  height: 100vh;
+  position: relative;
+}
+.wwd-text-part {
+  position: relative;
+  height: 650px;
+}
+.wwd-container {
+  position: relative;
+  height: 650px;
+}
+.wwd-container2 {
+  position: relative;
+  height: 650px;
+}
+.investement-section {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+.b-corporate-finance-section {
+  height: 100vh;
+}
+.wwd-container4 {
+  padding: 89px 87px 50px 135px;
+}
+.section-second-padding {
+  padding: 153px 81px 120px 92px;
+}
+.n-i-padding:first-child {
+  padding-right: 32px;
+}
+.n-i-padding {
+  padding: 32px;
+}
+.n-i-padding:last-child {
+  padding-right: 30px;
+}
+.quote {
+  font-style: italic;
+}
+.custom-file-upload br {
+  display: none;
+}
+#submit-my-btn {
+  background-color: #a99f4d;
+  opacity: 0.8;
+}
+#submit-my-btn:hover {
+  background-color: #a99f4d;
+  opacity: 1;
+}
+.track-record-part {
+  padding-bottom: 60px;
+}
+.map-text-group {
+    background:transparent; 
+    height: 150vh; 
+    width: 100%; 
+    position: relative;
+}
