@@ -159,7 +159,7 @@
 <script>
 STYLESHEET_DIRECTORY_URL = "<?php echo get_stylesheet_directory_uri(); ?>";
 </script>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 
 <script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/index.js"></script>
 
