@@ -1,18 +1,18 @@
 <?php get_header(); ?>
-<section style="position: relative">
+<section style="position: relative" class="">
     <div class="talk_to_us" style="background-image: url(<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page/talk_to_us/confident-african-businesswoman-smiling-closeup-portrait-jobs-career-campaign.jpeg);
 ">
     </div>
-    <div class="map-text-group" style="background:transparent; height: 150vh; width: 100%; position: relative">
+    <div class="map-text-group" style="background:transparent;width: 100%; position: relative">
 
         <div class="slide-text-area">
             <div class="coporate_title common-landing-title" style="text-align:center">Connect With Us</div>
         </div>
         <div class="row map_row">
-            <div class="col-12 col-md-6 map_img">
+            <div class="col-12 col-md-7 col-lg-8 map_img">
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/assets/images/page/talk_to_us/map.png" alt="">
             </div>
-            <div class="col-12 col-md-6 map_text">
+            <div class="col-12 col-md-5 col-lg-4 map_text">
                 <div class="connect_address">
                     <div class="contact_title">
                         nairobi office

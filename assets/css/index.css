@@ -264,8 +264,8 @@ body {
     padding: 40px 20px 30px 20px;
   }
   .women-section p {
-      font-size: 25px !important;
-      padding-left: 0px !important;
+    font-size: 25px !important;
+    padding-left: 0px !important;
   }
   .map-section {
     flex-direction: column;
@@ -455,27 +455,30 @@ body {
   .footer_icon_bottom_text {
     padding: 0px;
   }
-.map_text {
-  background-color: white;
-}
-.nisk-graphic-img {
+  .map_text {
+    background-color: white;
+  }
+  .nisk-graphic-img {
     margin-top: 0px !important;
-}
+  }
 
-.map-text-group {
-    background:transparent; 
-    height: unset !important; 
-    width: 100%; 
+  .map-text-group {
+    background: transparent;
+    height: unset !important;
+    width: 100%;
     position: relative;
-}
-.map_row {
+  }
+  .map_row {
     margin-top: 200px;
-}
+  }
 
-.new_title_wwwa {
+  .new_title_wwwa {
     text-align: center;
     font-size: 45px !important;
-}
+  }
+  .talk_to_us {
+    height: 150vh;
+  }
   /* ----min--- */
   .contact_form_title {
     font-size: 45px !important;
@@ -802,7 +805,7 @@ body {
     position: absolute;
     bottom: 0px;
     left: 0px;
-}
+  }
   /* ----middle--- */
 }
 
@@ -1088,12 +1091,10 @@ body {
   }
   .details-section {
     flex-direction: column;
-
-    
   }
-.edge-content {
-      flex-direction: column !important;
-    }
+  .edge-content {
+    flex-direction: column !important;
+  }
   .my-gap-15 {
     gap: 60px;
   }
@@ -1146,7 +1147,14 @@ body {
     position: absolute;
     bottom: 0px;
     left: 0px;
-}
+  }
+
+  .talk_to_us {
+    height: 1600px !important;
+  }
+  .map-text-group {
+    height: 1600px !important;
+  }
   /* ---Maximum--- */
 }
 
@@ -1241,6 +1249,13 @@ body {
     padding-top: 103px;
   }
   /* ---super-Maximum--- */
+
+  .talk_to_us {
+    height: 1600px !important;
+  }
+  .map-text-group {
+    height: 1600px !important;
+  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -1275,10 +1290,21 @@ body {
   .wwd-container2 {
     padding: 89px 0px 80px 89px;
   }
-.track_section_title{
+  .track_section_title {
     padding: 114px 0px 0px 0px;
-}
+  }
   /* ----min-width:1440px---- */
+  .map-text-group {
+    min-height: 1600px !important;
+  }
+
+  .talk_to_us {
+    height: 1600px !important;
+  }
+  .map_img img {
+    width: 824px !important;
+    height: auto;
+  }
 }
 
 .map_img img {
@@ -1984,7 +2010,6 @@ body {
   background-repeat: no-repeat;
   margin: auto;
   background-size: cover;
-  height: 150vh;
   width: 100%;
 }
 
@@ -3172,8 +3197,13 @@ p {
   padding-bottom: 60px;
 }
 .map-text-group {
-    background:transparent; 
-    height: 150vh; 
-    width: 100%; 
-    position: relative;
+  background: transparent;
+  width: 100%;
+  position: relative;
+}
+.map-text-group {
+  height: 1200px;
+}
+.talk_to_us {
+  height: 1200px;
 }
